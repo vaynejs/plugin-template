@@ -16,7 +16,7 @@ class VaynePluginXX {
   constructor(config, log, utils) {
     log.debug('开始解析 vayne stylelint 插件')
     let styleLint = config.styleLint || {}
-    let opts = _.defaultsDeep(defaultOptions, styleLint)
+    let opts = _.defaults(defaultOptions, styleLint)
     log.debug(opts)
     this.name = 'VaynePluginXX'
 
