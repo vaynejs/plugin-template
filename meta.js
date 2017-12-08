@@ -27,9 +27,5 @@ module.exports = {
       "type": "string",
       "message": "Author"
     }
-  },
-  "filters": {
-    ".eslintrc.js": "lint",
-    ".eslintignore": "lint"
   }
 };
